@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="373dp" android:layout_height="wrap_content" android:layout_weight="1">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="firstname" android:layout_weight="1"/>
+        <EditText android:enabled="false" android:id="@+id/firstname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:ems="10" android:layout_weight="1" android:inputType="textPersonName"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="lastname" android:layout_weight="1"/>
+        <EditText android:enabled="false" android:id="@+id/lastname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:ems="10" android:layout_weight="1" android:inputType="textPersonName"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="schoolId" android:layout_weight="1"/>
+        <EditText android:enabled="false" android:id="@+id/schoolid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:ems="10" android:layout_weight="1" android:inputType="textPersonName"/>
+    </LinearLayout>
+</LinearLayout>

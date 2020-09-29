@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="128dp" android:layout_height="wrap_content" android:text="FirstName" android:layout_weight="1"/>
+        <EditText android:id="@+id/firstName" android:layout_width="367dp" android:layout_height="wrap_content" android:text="firstName" android:ems="10" android:layout_weight="1" android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="129dp" android:layout_height="wrap_content" android:text="lastName" android:layout_weight="1"/>
+        <EditText android:id="@+id/lastName" android:layout_width="367dp" android:layout_height="wrap_content" android:text="lastName" android:ems="10" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="126dp" android:layout_height="wrap_content" android:text="SchoolId" android:layout_weight="1"/>
+        <EditText android:id="@+id/SchoolId" android:layout_width="364dp" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1" android:inputType="numberSigned"/>
+    </LinearLayout>
+    <Button android:id="@+id/button2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="AddStudent" android:onClick="addStudent"/>
+</LinearLayout>

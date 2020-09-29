@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentattendance">
+
+    <application android:theme="@style/Theme.AppCompat" android:label="@string/app_name" android:icon="@drawable/ic_writing" android:allowBackup="true" android:supportsRtl="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:name="com.example.studentattendance.AttendanceStatistics"/>
+        <activity android:name="com.example.studentattendance.ViewAttendance"/>
+        <activity android:name="com.example.studentattendance.TakeAttendance"/>
+        <activity android:name="com.example.studentattendance.CreateStudentsList"/>
+        <activity android:name="com.example.studentattendance.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
